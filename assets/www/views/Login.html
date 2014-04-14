@@ -1,62 +1,52 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8"/>
-    <meta name="format-detection" content="telephone=no"/>
-    <meta name="viewport"
-          content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi"/>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
     <title>Login</title>
 
-    <!-- Bootstrap -->
+    <!-- Bootstrap core CSS -->
+   
 	<link href="../css/bootstrap.css" rel="stylesheet">
 	<link href="../css/bootstrap-theme.css" rel="stylesheet">
 	<link href="../css/bootstrap-theme.min.css" rel="stylesheet">
-	
-	
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+ 	<link href="../css/bootstrap.min.css" rel="stylesheet">
+	<link href="../css/signin.css" rel="stylesheet">
+
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
+
   <body>
 
+    <div class="container">
 
-<form class="form-horizontal">
-  <div class="control-group">
-    <label class="control-label" for="inputEmail">E-mail</label>
-    <div class="controls">
-      <input id="inputEmail" type="text" placeholder="Digite o seu e-mail..." />
-    </div>
-  </div>
-  <div class="control-group">
-    <label class="control-label" for="inputPassword">Senha</label>
-    <div class="controls">
-      <input id="inputPassword" type="password" placeholder="Digite a sua senha..." />
-    </div>
-  </div>
-  <div class="control-group">
-    <div class="controls">
-	<br>
-	 <button class="btn" type="submit">Entrar</button>
+      <form class="form-signin" role="form">
+        <h2 class="form-signin-heading">Login</h2>
+        <input type="email" class="form-control" placeholder="E-Mail" required autofocus>
+        <input type="password" class="form-control" placeholder="Senha" required>
+<br>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Entrar</button>
 	 <br>
       <a href="index.html">Cadastrar</a>
 	   <br>
-	   <a href="../view/EsqueceuSenha.html">Esqueceu a senha?</a>
+	   <a href="../views/EsqueceuSenha.html">Esqueceu a senha?</a>
 	       
-	
-     <br>
-	  
-    </div>
-  </div>
-</form>
+      </form>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="../js/bootstrap.min.js"></script>
-	<script src="../js/bootstrap.js"></script>
-	<script src="../js/index.js"></script>
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
   </body>
 </html>
