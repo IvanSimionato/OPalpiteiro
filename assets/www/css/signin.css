@@ -1,8 +1,31 @@
-body {
-  padding-top: 40px;
-  padding-bottom: 40px;
-  background-color: #eee;
+@font-face {
+    font-family: "bigNoodle";
+    src: url('../fonts/big_noodle_titling.ttf');
+    font-weight: normal;
+    font-style: normal;
 }
+
+body {
+    margin: 0 0 0 0;
+    background: url('../img/fundo_geral.jpg') no-repeat center;
+    font-family: "bigNoodle";
+}
+
+.titulo{
+font-family:palpiteiro;
+background-color:#1e1e1e;
+font-size:35px;
+color:#FFF;	
+padding:5px 10px 3px 10px;
+}
+
+.sub{
+background-color:#fba502;	
+color:#000;
+font-size:28px;
+padding:0px 0px 0px 20px;
+}
+
 
 .form-signin {
   max-width: 330px;
@@ -38,3 +61,6 @@ body {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
+
+
+
