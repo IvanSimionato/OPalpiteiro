@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "bigNoodle";
+    src: url('../fonts/big_noodle_titling.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0 0 0 0;
+    background: url('../img/fundo_geral.jpg') no-repeat center;
+    font-family: "bigNoodle";
+}
+
+nav {
+    height: 50px;
+    background: #1E1E1E;
+}
+
+nav span {
+    text-transform: uppercase;
+    font-size: 2.5em;
+    color: #ffffff;
+    margin-left: 30px;
+}
+
+.titulo-pagina{
+	height: 30px;
+	background: #FBA502;
+}
+
+.titulo-pagina .titulo{
+	font-size: 1.5em;
+	margin-left: 30px;
+	color: #000000;
+}
+
+.titulo-pagina .contador{
+	font-size: 1.5em;
+	color: #000000;
+	opacity: 0.4;
+}
+
+.titulo-pagina .contador-de{
+	color: #000000;
+}
+
+.titulo-pagina .contador-total{
+	color: #000000;
+}
+
+.nome-time{
+	font-size: 1.5em;
+	color: #000000;
+}
+
+.resultado-jogo{
+	font-size: 4em;
+	color: #000000;
+}
+
+.divisor{
+	font-size: 3em;
+	color: #000000;
+	font-family: "Verdana";
+}
+
+.btn-red {
+background-color: #aa2222 !important;
+color: white;
+}
+.btn{
+	font-family: helvetica;
+	font-style: italic;
+}

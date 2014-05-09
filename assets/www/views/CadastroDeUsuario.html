@@ -1,0 +1,91 @@
+﻿<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<link href="../css/bootstrap.min.css" rel="stylesheet">	
+		<link href="../css/bootstrap.css" rel="stylesheet">
+		<link href="../css/bootstrap-theme.css" rel="stylesheet">
+		<link href="../css/bootstrap-theme.min.css" rel="stylesheet">
+	 	<link href="../css/bootstrap.min.css" rel="stylesheet">
+		<link href="../css/signin.css" rel="stylesheet">
+	    <link href="../css/bootstrap.min.css" rel="stylesheet">
+	    <link href="../css/style.css" rel="stylesheet">
+	</head>
+	<body>
+		<div id="wrapper">
+			<div class="titulo"> O PALPITEIRO </div>
+			<div class="sub titulo"> CADASTRO DE USUÁRIO </div>
+				<div class="container">
+					<div class="home">
+						<form  action="ResultadoJogos.html">
+							<div class="row">	
+								<div class="col-xs-10 col-sm-10">	
+									<div class="form-group">
+										<label class="control-label" for="apelido">Apelido</label>
+										<input type="text" class="form-control" id="apelido"/>
+									</div>
+								</div>
+							</div>
+							<div class="row">	
+								<div class="col-xs-10 col-sm-10">	
+									<div class="form-group">
+										<label class="ccontrol-label" for="nome">Nome</label>
+											<input type="text" class="form-control" id="nome"/>
+									</div>
+								</div>
+							</div>
+							<div class="row">	
+								<div class="col-xs-10 col-sm-10">	
+									<div class="form-group">
+										<label class="control-label" for="email">E-mail</label>
+										<input type="email" class="form-control" id="email"/>
+									</div>
+								</div>
+							</div>
+							<div class="row">	
+								<div class="col-xs-10 col-sm-10">	
+									<div class="form-group">
+										<label class="control-label" for="senha">Senha</label>			
+										<input type="password" class="form-control" id="senha"/>
+									</div>
+								</div>
+							</div>
+							<div class="row">	
+								<div class="col-xs-6 col-sm-6">	
+									<div class="form-group">
+										<label class="control-label" for="dataNascimento">Data de Nascimento</label>
+										<input type="text" class="form-control" id="dataNascimento"/>
+									</div>
+								</div>
+							</div>
+							<div class="row">	
+								<div class="col-xs-10 col-sm-10">	
+									<div class="form-group">
+										<label class="checkbox" for="aceitar">
+											<input type="checkbox" id="aceitar">
+											Aceitar
+										</label>
+									</div>
+								</div>
+							</div>
+							<div class="row">	
+								<div class="col-xs-offset-7 col-sm-offset-7">	
+									<div class="form-group">
+											<button type="submit" class="btn btn-success"><span class="glyphicon glyphicon-ok"></span> CADASTRAR</button>
+									</div>
+							</div>
+						</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		<script src="../js/jquery-1.11.0.min.js"></script>	
+		<script src="../js/bootstrap.min.js"></script>
+		<script src="../js/jquery.maskedinput.min.js"></script>	
+	</body>
+</html>
+<script>
+$( document ).ready(function() {
+  $('#dataNascimento').mask('99/99/9999');
+});
+</script>
