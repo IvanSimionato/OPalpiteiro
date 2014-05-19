@@ -4,9 +4,6 @@
 out/*
 #Eclipse
 .classpath
-*properties
-#proguard
-proguard-project.txt
 #IntelliJ
 .idea/*
 *.iml
